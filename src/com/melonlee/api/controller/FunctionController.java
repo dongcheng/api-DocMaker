@@ -1,0 +1,1 @@
+package com.melonlee.api.controller;import javax.annotation.Resource;import org.springframework.stereotype.Controller;import org.springframework.web.bind.annotation.RequestMapping;import com.melonlee.api.dao.MainDao;@Controller@RequestMapping("funcs")public class FunctionController {	@Resource	private MainDao mainDao;}

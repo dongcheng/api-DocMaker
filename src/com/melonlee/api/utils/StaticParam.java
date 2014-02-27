@@ -1,0 +1,1 @@
+package com.melonlee.api.utils;public class StaticParam {		public static String USER_AGENT = "API_Manager";		//一些URL		public static String URL_MENU_THUMB = "http://www.o2oapp.com/ShopCenter/upload/menu/";	}

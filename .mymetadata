@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="API_Manager"
+  id="myeclipse.1393487236339"
+  context-root="/API_Manager"
+  j2ee-spec="5.0"
+  archive="API_Manager.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
