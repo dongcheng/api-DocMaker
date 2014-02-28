@@ -1,5 +1,6 @@
 package com.melonlee.api.utils;
 
+import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -26,6 +27,15 @@ public class DateFormatUtils {
 
 	}
 
+	public static String enCoding(String str)  {
+		try {
+			return new String(str.getBytes("iso8859-1"), "utf-8");
+		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 	public static void main(String[] args) {
 		System.out.println(getTimeStamp("2013-03-14 10:21:20"));
 	}
@@ -35,7 +45,7 @@ public class DateFormatUtils {
 	}
 
 	public static String getTimeStamp(String string) {
-		
+
 		return string.substring(11, 19);
 	}
 }
