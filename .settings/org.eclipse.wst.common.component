@@ -3,7 +3,7 @@
     <wb-module deploy-name="API_Manager">
         <wb-resource deploy-path="/" source-path="/WebRoot"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="/API_Manager"/>
         <property name="java-output-path" value="/API_Manager/WebRoot/WEB-INF/classes"/>
+        <property name="context-root" value="/API_Manager"/>
     </wb-module>
 </project-modules>
